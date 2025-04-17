@@ -1,11 +1,24 @@
-import './App.css'
+import './App.css';
+import About from './Components/About/About';
+import Blog from './Components/Blog/Blog';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
+import Hero from './Components/Hero/Hero';
+import Navbar from './Components/Navbar/Navbar';
+import Services from './Components/Services/Services';
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-2xl text-gray-500'>Hello World</h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Blog />
+      <Contact />
+      <Footer />
     </>
   )
 }
